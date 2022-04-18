@@ -1,4 +1,4 @@
-package CarClass2;
+package CarClass3;
 
 
 public class Car {
@@ -7,6 +7,8 @@ public class Car {
   String Brand;
   String Year;
   private String Location;
+  double gas;
+
 
 
   public Car(String Name, String Model, String Brand,String Year){
@@ -14,10 +16,19 @@ public class Car {
     this.Model = Model;
     this.Brand = Brand;
     this.Year = Year;
-  
 
+}
 
+public double getGas() {
+    return gas;
+}
 
+public void setGas(double gas) {
+    this.gas = gas;
+}
+
+public Car(double gas){
+this.gas = gas;
 }
 
 
@@ -30,5 +41,6 @@ public void setLocation(String location) {
     Location = location;
 }
 
+   
 
 }

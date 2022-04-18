@@ -20,6 +20,7 @@ public class Main {
         car[3].setLocation("cebu");
         car[4].setLocation("cebu");
 
+   
 
         
         
